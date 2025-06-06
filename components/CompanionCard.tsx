@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CompanionCars = () => {
+const CompanionCard = () => {
   return (
-    <div>CompanionCars</div>
+    <div>CompanionCard</div>
   )
 }
 
-export default CompanionCars
+export default CompanionCard
