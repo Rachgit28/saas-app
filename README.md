@@ -53,78 +53,6 @@ A modern SaaS learning platform that enables personalized education through AI-p
 - **Monitoring**: Sentry for error tracking
 - **API Testing**: Postman
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ and npm/yarn
-- Supabase account
-- Clerk account
-- Vapi AI API key
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/Rachgit28/saas-app.git
-cd saas-app
-```
-
-2. **Install dependencies**
-```bash
-npm install
-# or
-yarn install
-```
-
-3. **Set up environment variables**
-
-Create a `.env.local` file in the root directory:
-
-```env
-# Clerk Authentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-
-# Supabase
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-
-# Vapi AI
-VAPI_API_KEY=your_vapi_api_key
-
-# Sentry (Optional)
-SENTRY_DSN=your_sentry_dsn
-```
-
-4. **Run the development server**
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-5. **Open your browser**
-
-Navigate to [http://localhost:3000](http://localhost:3000)
-
-## 📁 Project Structure
-
-```
-saas-app/
-├── app/                    # Next.js app directory
-│   ├── companions/        # Companion routes
-│   ├── my-journey/        # User progress tracking
-│   └── api/              # API routes
-├── components/            # React components
-│   ├── ui/               # shadcn/ui components
-│   └── ...               # Custom components
-├── lib/                   # Utility functions
-├── public/               # Static assets
-│   ├── images/          # Images and logos
-│   └── icons/           # SVG icons
-└── styles/              # Global styles
-```
 
 ## 🎯 Key Features Breakdown
 
@@ -146,17 +74,6 @@ saas-app/
 - Quick access to favorite companions
 - Session history with subject categorization
 
-## 🔑 Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` | Clerk public key for authentication | Yes |
-| `CLERK_SECRET_KEY` | Clerk secret key | Yes |
-| `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL | Yes |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase anonymous key | Yes |
-| `VAPI_API_KEY` | Vapi AI API key for voice features | Yes |
-| `SENTRY_DSN` | Sentry DSN for error monitoring | No |
-
 ## 🧪 Testing
 
 API endpoints tested using **Postman** for:
@@ -171,20 +88,6 @@ API endpoints tested using **Postman** for:
 - **Vercel Analytics**: Built-in analytics for deployment insights
 - **Optimized Loading**: Next.js Image optimization and lazy loading
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 👤 Author
 
 **Rachit Rajput**
@@ -193,19 +96,4 @@ This project is open source and available under the [MIT License](LICENSE).
 - LinkedIn: [rachit-rajput](https://www.linkedin.com/in/rachit-rajput)
 - Email: 28rachitrajput@gmail.com
 
-## 🙏 Acknowledgments
-
-- [Next.js](https://nextjs.org/) - The React Framework
-- [Clerk](https://clerk.com/) - Authentication and user management
-- [Supabase](https://supabase.com/) - Backend and database
-- [Vapi AI](https://vapi.ai/) - Voice AI technology
-- [shadcn/ui](https://ui.shadcn.com/) - UI component library
-- [Vercel](https://vercel.com/) - Deployment platform
-
----
-
 ⭐ **Star this repo** if you find it helpful!
-
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# saas-app
